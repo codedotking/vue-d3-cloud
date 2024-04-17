@@ -10,6 +10,12 @@
     "preview": "vite preview",
     "build:package": "vite build --config lib.config.ts"
   },
+  "main": "lib/vue-d3-cloud.umd.js",
+  "module": "lib/vue-d3-cloud.js",
+  "exports": {
+    "import": "./lib/vue-d3-cloud.js",
+    "require": "./lib/vue-d3-cloud.umd.js"
+  },
   "dependencies": {
     "@vueuse/core": "^10.9.0",
     "d3": "^7.9.0",
