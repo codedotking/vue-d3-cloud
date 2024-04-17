@@ -1,0 +1,33 @@
+{
+  "name": "@huala-fun/vue-d3-cloud",
+  "author": "huala-fun <huala.fun@outlook.com>",
+  "private": false,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "build:package": "vite build --config lib.config.ts"
+  },
+  "dependencies": {
+    "@vueuse/core": "^10.9.0",
+    "d3": "^7.9.0",
+    "d3-cloud": "^1.2.7",
+    "tippy.js": "^6.3.7",
+    "vue": "^3.4.21"
+  },
+  "license": "Apache 2.0",
+  "devDependencies": {
+    "@types/d3": "^7.4.3",
+    "@types/d3-cloud": "^1.2.9",
+    "@types/node": "^20.12.7",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vue-tsc": "^2.0.6"
+  },
+  "files": [
+    "lib"
+  ]
+}
